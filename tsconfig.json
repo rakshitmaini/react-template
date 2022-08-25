@@ -1,0 +1,28 @@
+
+// Intro to TS Config Reference
+// https://www.typescriptlang.org/tsconfig#types
+{
+    "compilerOptions": {
+        "target": "ES5",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "lib": ["DOM", "ESNext"],
+      "jsx": "react-jsx",
+      "noEmit": true,
+      "isolatedModules": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "checkJs": true,
+    //   "allowJs": true,
+    //   "noImplicitAny": true,
+    //   "removeComments": true,
+    //   "preserveConstEnums": true,
+    //   "outFile": "../../built/local/tsc.js",
+    //   "sourceMap": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
